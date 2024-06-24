@@ -1,10 +1,15 @@
-﻿namespace RPS_Game
+﻿//using RPS_Game;
+
+namespace Lab4_Rock__Paper__Scissors
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            clsRPSGame clsRPS = new clsRPSGame();
+
+            clsRPS.StartGameScreen();
+            clsRPS.Rounds();
         }
     }
 }
